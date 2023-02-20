@@ -230,7 +230,7 @@ export const content = {
         link: "mailto:vandana123annusah@gmail.com",
       },
       {
-        text: "+91 943037179",
+        text: "+91 9430437179",
         icon: MdCall,
         link: "https://wa.me/9430437179",
       },
