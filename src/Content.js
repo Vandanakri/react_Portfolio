@@ -76,7 +76,7 @@ export const content = {
     hero_content: [
       {
         count: "1+",
-        text: "Years of Experinse in Frontend development",
+        text: "Years of Experience in Frontend development",
       },
       {
         count: "40+",

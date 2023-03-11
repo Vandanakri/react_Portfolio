@@ -1,12 +1,10 @@
-// import content
-// import { useEffect } from "react";
 import { content } from "../Content";
 const Hero = () => {
   const { hero } = content;
 
   return (
     <section id="home" className="overflow-hidden">
-      <div className="min-h-screen relative flex md:flex-row flex-col-reverse md:items-end justify-center items-center">
+      <div className="min-h-screen relative flex md:flex-row flex-col-reverse justify-center items-center">
         <div
           data-aos="slide-left"
           data-aos-delay="1200"
@@ -14,7 +12,7 @@ const Hero = () => {
         >
           <h1 className="rotate-90 absolute top-[37%] right-[-20%] text-[#EAF2FA]">
             {hero.firstName}{" "}
-            <span className="text-dark_primary ">{hero.LastName}</span>
+            <span className="text-dark_primary">{hero.LastName}</span>
           </h1>
         </div>
 
